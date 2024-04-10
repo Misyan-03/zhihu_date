@@ -1,0 +1,8 @@
+Home
+--// 头部
+import HomeHead from '../components/HomeHead'
+新闻列表
+import NewsItem from '../components/NewsItem'
+//骨架屏二次封装
+import SkeletonAgain from '../components/SkeletonAgain'
+骨架屏.按钮，导航栏二次封装

@@ -1,0 +1,75 @@
+.detail-box {
+  /* 底部栏 */
+}
+.detail-box .content {
+  overflow-x: hidden;
+  margin: 0;
+  padding-bottom: 90px;
+}
+.detail-box .content .img-place-holder {
+  overflow: hidden;
+}
+.detail-box .content .img-place-holder img {
+  margin: 0;
+  width: 100%;
+}
+.detail-box .content .meta .avatar {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.detail-box .tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  box-sizing: border-box;
+  width: 100%;
+  height: 90px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+}
+.detail-box .tab-bar .back {
+  box-sizing: border-box;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  border-right: 2px solid #ccc;
+}
+.detail-box .tab-bar .icons {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  line-height: 50px;
+}
+.detail-box .tab-bar .icons .adm-badge-wrapper,
+.detail-box .tab-bar .icons span {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 40px;
+}
+.detail-box .tab-bar .icons span:nth-last-of-type(1) {
+  color: #aaa;
+}
+.detail-box .tab-bar .icons span:nth-of-type(1).stored {
+  color: #108ee9;
+}
+.detail-box .tab-bar .icons .adm-badge-wrapper .adm-badge-fixed {
+  right: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-box .tab-bar .icons .adm-badge-wrapper .adm-badge {
+  min-width: 20px;
+  background: #df7777;
+}
+.detail-box .tab-bar .icons .adm-badge-wrapper .adm-badge .adm-badge-content {
+  color: #f9f8f8;
+}
